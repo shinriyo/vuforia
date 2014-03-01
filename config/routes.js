@@ -57,6 +57,11 @@ module.exports.routes = {
     action: 'inbox'
   }
 
+  '/getJapanese': {
+    controller: 'DictionaryController',
+    action: 'getJapanese'
+  }
+  'GET /dictionary/:english': 'DictionaryController.getJapanese'
 
   // If you decided to call your action `index` instead of `inbox`,
   // since the `index` action is the default, you can shortcut even further to:

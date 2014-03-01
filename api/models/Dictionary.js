@@ -13,7 +13,7 @@ module.exports = {
   	/* e.g.
   	nickname: 'string'
   	*/
-  	english_key: 'string',
+  	english: 'string',
   	japanese: 'string',
     
   }
